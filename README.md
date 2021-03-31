@@ -10,3 +10,12 @@ My first BepInEx mod for expanding zoom limits and allowing faster keyboard pann
 
 ## Config
 After the first time you run the game with the mod present, config file called MoreControlOptions.cfg will be created in Dorfromantik\BepInEx\config. You can change config options there and turn features on/off. You have to restart the game for changes to take effect.
+
+## Warning
+This mod is an alpha version. It is primitive. It might cause bugs. It *should not* affect gameplay balance, highscores. There is no reason this mod should get you VAC banned. 
+
+Please do not trust this mod blindly. I will add complete sources for compiling but you should do your own checks if you feel the need. 
+
+### Dependencies and compiling
+Version 0.3 was built with Microsoft Visual Studio Community 2019 (Version 16.9.2), targetting .NET Standard 2.0.3.
+It uses HarmonyX version 2.4.0, BepInEx version 5.4.9.0, Assembly-CSharp.dll of Dorfromantik (Steam build id 6449938) and Unity DLLs (UnityEngine.dll, UnityEngine.CoreModule.dll), both in version used by the game (which is 2020.1.17f1).
